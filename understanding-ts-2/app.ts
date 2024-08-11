@@ -70,3 +70,8 @@ console.log(combine2(30, 26, 'as-number'));
 console.log(combine2('30', '26', 'as-number'));
 console.log(combine2('Aditya ', 'Sharma', 'as-text'));
 
+// 'Function' Type
+
+let combination: (n1: number | string, n2: number | string) => number | string;
+combination = combine;
+console.log(combination(1,2));
